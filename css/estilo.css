@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #33b2cd;
+}
+
+#calculator {
+  position: fixed;
+  left: 20%;
+  height: 420px;
+  width: 500px;
+  top: 100px;
+}
+
+#logo {
+  position: fixed;
+  height: 300px;
+  width: 380px;
+  left: 69%;
+  top: 10px;
+}
+
+#hand {
+  position: fixed;
+  height: 460px;
+  width: 400px;
+  right: 71%;
+}
+/* ====================================== */
+
+.main {
+  margin: 0 auto;
+  position: fixed;
+  left: 30.3%;
+  top: 210px;
+  width: 410px;
+  height: 180px;
+}
+#n0 {
+  margin-left: 54px;
+}
+.button {
+  border-radius: 10px 10px 10px 10px;
+  border: #ffffff solid 2px;
+  background: #0065c4;
+  color: #ffffff;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  margin: 2;
+}
+.textview {
+  border-radius: 10px 10px 10px 10px;
+  border: #0065c4 solid 2px;
+  background: #def3fe;
+  position: fixed;
+  width: 214px;
+  height: 40px;
+  top: 151px;
+}
